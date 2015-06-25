@@ -578,7 +578,7 @@ class Ui_MainWindow(object):
         MainWindow.setTabOrder(self.tableWidgetConnectionCount, self.pushButtonStatusIcon)
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(_translate("MainWindow", "Bitmessage", None))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Alex Ballmer's Bitmessage", None))
         self.inboxSearchLineEdit.setPlaceholderText(_translate("MainWindow", "Search", None))
         self.inboxSearchOptionCB.setItemText(0, _translate("MainWindow", "All", None))
         self.inboxSearchOptionCB.setItemText(1, _translate("MainWindow", "To", None))
